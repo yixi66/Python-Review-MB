@@ -21,3 +21,17 @@ number=[4, 25, 68]
 print(number)
 # str
 print(str(number))
+
+
+
+
+# 3.
+# Write a program that asks the user for the current temperature (F) and then use their Input calculate temperature in (C). 
+# Here is the formula to conver F to C => C = (Fahrenheit - 32) * 5.0/9.0
+# Once you calculate Celcius print out the conversion to the user
+
+temperature_F = input("What is the current Fahrenheit？")
+# change type to int
+temperature_F = int(temperature_F)
+temperature_C = (temperature_F - 32)* 5.0/9.0
+print(str(temperature_C))
