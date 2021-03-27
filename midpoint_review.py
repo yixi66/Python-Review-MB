@@ -2,11 +2,11 @@
 # Create Input Variables for your first name, last name and age.
 # Then print out your full name and age within a sentence
 
-first_name = input("What is your first name: ")
-Last_name = input("What is your last name: ")
-age = input("Enter your age: ")
+# first_name = input("What is your first name: ")
+# Last_name = input("What is your last name: ")
+# age = input("Enter your age: ")
 
-print("My name is " ,first_name + Last_name, ", I am " ,age ," years old")
+# print("My name is " ,first_name + Last_name, ", I am " ,age ," years old")
 
 
 
@@ -16,11 +16,11 @@ print("My name is " ,first_name + Last_name, ", I am " ,age ," years old")
 # once you convert them print out the variables. Example: convert 3 to '3'
 # if you use print(type(<var_name>)) this will print out the type of variable for example x = 3 would print 'int' and x = '3' would print 'str'
 
-number=[4, 25, 68]
-# int
-print(number)
-# str
-print(str(number))
+# number=[4, 25, 68]
+# # int
+# print(number)
+# # str
+# print(str(number))
 
 
 
@@ -30,11 +30,11 @@ print(str(number))
 # Here is the formula to conver F to C => C = (Fahrenheit - 32) * 5.0/9.0
 # Once you calculate Celcius print out the conversion to the user
 
-temperature_F = input("What is the current Fahrenheit？")
-# change type to int
-temperature_F = int(temperature_F)
-temperature_C = (temperature_F - 32)* 5.0/9.0
-print(str(temperature_C))
+# temperature_F = input("What is the current Fahrenheit？")
+# # change type to int
+# temperature_F = int(temperature_F)
+# temperature_C = (temperature_F - 32)* 5.0/9.0
+# print(str(temperature_C))
 
 
 
@@ -47,7 +47,8 @@ print(str(temperature_C))
 
 Money = input("How much money did you saved up: ")
 Monthly_growth_rate = input("What is the monthtly growth rate(%): ")
-mouth = 1
+mouth_list = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelfth"]
+mouth = 0
 
 Monthly_growth_rate = int(Monthly_growth_rate)
 Monthly_growth_rate = Monthly_growth_rate / 100
@@ -55,8 +56,11 @@ Money = int(Money)
 
 
 while mouth <= 12:
-    Money_after = Money + Money * Monthly_growth_rate
-    print("In", mouth, "mouth, you have ", Money_after)
+    for i in mouth_list:
+        Money_after = Money + Money * Monthly_growth_rate
+        print("In", i, "mouth, you have ", Money_after)
 
-    mouth = mouth + 1
-    Money = Money_after
+        mouth = mouth + 1
+        Money = Money_after
+    
+        
