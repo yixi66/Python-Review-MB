@@ -122,3 +122,7 @@ employees_names = ["Aaila", "Bobbe", "Carle", "Dennie", "Eita", "Faira", "Giorgi
 # print out the length of your names list and your salary list. Make sure they're the same length
 print(len(employees_salaries))
 print(len(employees_names))
+# 6c.
+# using a for loop print out every name in your list
+for n in employees_names:
+    print (n)
