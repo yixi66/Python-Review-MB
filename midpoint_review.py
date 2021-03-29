@@ -98,3 +98,10 @@ print(employees_salaries[10:0:-1])
 # add a new salary to the list
 employees_salaries.append(6000)
 print(employees_salaries)
+# 5g. 
+# create another list that stores every other salary from the original list: 
+employees_salaries_2 = [1000, 2000, 3000, 4000, 5000]
+# 5h. 
+# remove an specific item from a list. 
+employees_salaries.remove(2000)
+print(employees_salaries)
