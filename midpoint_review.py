@@ -45,22 +45,41 @@
 # Then ask the user to input a monthly growth rate (%) example: 5% would mean their savings would increase by 5% monthly. 
 # Calculate how much the user would have at the end of each month for 12 months & print it all to the user
 
-Money = input("How much money did you saved up: ")
-Monthly_growth_rate = input("What is the monthtly growth rate(%): ")
-mouth_list = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelfth"]
-mouth = 0
+# Money = input("How much money did you saved up: ")
+# Monthly_growth_rate = input("What is the monthtly growth rate(%): ")
+# mouth_list = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelfth"]
+# mouth = 0
 
-Monthly_growth_rate = int(Monthly_growth_rate)
-Monthly_growth_rate = Monthly_growth_rate / 100
-Money = int(Money)
+# Monthly_growth_rate = int(Monthly_growth_rate)
+# Monthly_growth_rate = Monthly_growth_rate / 100
+# Money = int(Money)
 
 
-while mouth <= 12:
-    for i in mouth_list:
-        Money_after = Money + Money * Monthly_growth_rate
-        print("In", i, "mouth, you have ", Money_after)
+# while mouth <= 12:
+#     for i in mouth_list:
+#         Money_after = Money + Money * Monthly_growth_rate
+#         print("In", i, "mouth, you have ", Money_after)
 
-        mouth = mouth + 1
-        Money = Money_after
+#         mouth = mouth + 1
+#         Money = Money_after
     
-        
+
+
+
+
+# 4b.
+# Now take the code you wrote for problem 4a and put it in a function called calc_investment(). It should take two parameters:
+# the users savings and the growth rate. So it would look something like def calc_investment(savings, growth_rate):
+# Once you have the function created call this function in your main with different savings and growth rate. 
+# If you are unsure how to 'call' a function. All you have to do is type it out in your main.
+
+
+
+
+
+# 5a. 
+# create a list with 10 different employees salaries.
+employees_salaries = [1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500]
+# 5b. 
+# print out the last item in your list
+print (employees_salaries[-1])
