@@ -91,3 +91,6 @@ print (employees_salaries[1:9])
 # 5d. 
 # print out the entire list but skip every other value 
 print(employees_salaries[0:11:2])
+# 5e.
+# print out the entire list in reverse order
+print(employees_salaries[10:0:-1])
