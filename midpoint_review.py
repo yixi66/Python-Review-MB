@@ -85,4 +85,9 @@ employees_salaries = [1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500
 # 5b. 
 # print out the last item in your list
 print (employees_salaries[-1])
+# 5c. 
+# print out indexes 2 through 8(make sure you include 8)
 print (employees_salaries[1:9])
+# 5d. 
+# print out the entire list but skip every other value 
+print(employees_salaries[0:11:2])
