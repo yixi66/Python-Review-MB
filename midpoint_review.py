@@ -116,5 +116,9 @@ print(employees_salaries)
 # 6a. 
 # create another list filled with names corresponding to the salaries list you created in problem 5a.
 # 5a list
-# employees_salaries = [1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500]
+employees_salaries = [1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500]
 employees_names = ["Aaila", "Bobbe", "Carle", "Dennie", "Eita", "Faira", "Giorgia", "Hoby", "Ialen","Jenee"]
+# 6b. 
+# print out the length of your names list and your salary list. Make sure they're the same length
+print(len(employees_salaries))
+print(len(employees_names))
