@@ -126,3 +126,7 @@ print(len(employees_names))
 # using a for loop print out every name in your list
 for n in employees_names:
     print (n)
+## 6d. 
+# using a for loop greet every person from your names list: 
+for n in employees_names:
+    print("Hi!",n)
