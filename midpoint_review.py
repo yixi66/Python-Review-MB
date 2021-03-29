@@ -105,3 +105,7 @@ employees_salaries_2 = [1000, 2000, 3000, 4000, 5000]
 # remove an specific item from a list. 
 employees_salaries.remove(2000)
 print(employees_salaries)
+# 5i.
+# remove the last item in the list
+employees_salaries.pop()
+print(employees_salaries)
