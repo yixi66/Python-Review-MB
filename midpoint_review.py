@@ -94,3 +94,7 @@ print(employees_salaries[0:11:2])
 # 5e.
 # print out the entire list in reverse order
 print(employees_salaries[10:0:-1])
+# 5f.
+# add a new salary to the list
+employees_salaries.append(6000)
+print(employees_salaries)
