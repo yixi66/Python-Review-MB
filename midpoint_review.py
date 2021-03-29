@@ -109,3 +109,12 @@ print(employees_salaries)
 # remove the last item in the list
 employees_salaries.pop()
 print(employees_salaries)
+
+
+
+
+# 6a. 
+# create another list filled with names corresponding to the salaries list you created in problem 5a.
+# 5a list
+# employees_salaries = [1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500]
+employees_names = ["Aaila", "Bobbe", "Carle", "Dennie", "Eita", "Faira", "Giorgia", "Hoby", "Ialen","Jenee"]
