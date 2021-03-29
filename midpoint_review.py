@@ -2,11 +2,11 @@
 # Create Input Variables for your first name, last name and age.
 # Then print out your full name and age within a sentence
 
-# first_name = input("What is your first name: ")
-# Last_name = input("What is your last name: ")
-# age = input("Enter your age: ")
+first_name = input("What is your first name: ")
+Last_name = input("What is your last name: ")
+age = input("Enter your age: ")
 
-# print("My name is " ,first_name + Last_name, ", I am " ,age ," years old")
+print("My name is " ,first_name + Last_name, ", I am " ,age ," years old")
 
 
 
@@ -16,11 +16,11 @@
 # once you convert them print out the variables. Example: convert 3 to '3'
 # if you use print(type(<var_name>)) this will print out the type of variable for example x = 3 would print 'int' and x = '3' would print 'str'
 
-# number=[4, 25, 68]
-# # int
-# print(number)
-# # str
-# print(str(number))
+number=[4, 25, 68]
+# int
+print(number)
+# str
+print(str(number))
 
 
 
@@ -30,11 +30,11 @@
 # Here is the formula to conver F to C => C = (Fahrenheit - 32) * 5.0/9.0
 # Once you calculate Celcius print out the conversion to the user
 
-# temperature_F = input("What is the current Fahrenheit？")
-# # change type to int
-# temperature_F = int(temperature_F)
-# temperature_C = (temperature_F - 32)* 5.0/9.0
-# print(str(temperature_C))
+temperature_F = input("What is the current Fahrenheit？")
+# change type to calculation
+temperature_F = int(temperature_F)
+temperature_C = (temperature_F - 32)* 5.0/9.0
+print(str(temperature_C))
 
 
 
@@ -45,23 +45,25 @@
 # Then ask the user to input a monthly growth rate (%) example: 5% would mean their savings would increase by 5% monthly. 
 # Calculate how much the user would have at the end of each month for 12 months & print it all to the user
 
-# Money = input("How much money did you saved up: ")
-# Monthly_growth_rate = input("What is the monthtly growth rate(%): ")
-# mouth_list = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelfth"]
-# mouth = 0
+Money = input("How much money did you saved up: ")
+Monthly_growth_rate = input("What is the monthtly growth rate(%): ")
 
-# Monthly_growth_rate = int(Monthly_growth_rate)
-# Monthly_growth_rate = Monthly_growth_rate / 100
-# Money = int(Money)
+mouth_list = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelfth"]
+mouth = 0
+
+# change type to calculation
+Monthly_growth_rate = int(Monthly_growth_rate)
+Monthly_growth_rate = Monthly_growth_rate / 100
+Money = int(Money)
 
 
-# while mouth <= 12:
-#     for i in mouth_list:
-#         Money_after = Money + Money * Monthly_growth_rate
-#         print("In", i, "mouth, you have ", Money_after)
+while mouth <= 12:
+    for i in mouth_list:
+        Money_after = Money + Money * Monthly_growth_rate
+        print("In", i, "mouth, you have ", Money_after)
 
-#         mouth = mouth + 1
-#         Money = Money_after
+        mouth = mouth + 1
+        Money = Money_after
     
 
 
@@ -83,3 +85,4 @@ employees_salaries = [1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500
 # 5b. 
 # print out the last item in your list
 print (employees_salaries[-1])
+print (employees_salaries[1:9])
