@@ -130,3 +130,10 @@ for n in employees_names:
 # using a for loop greet every person from your names list: 
 for n in employees_names:
     print("Hi!",n)
+
+
+
+
+# 7a. 
+# create a list of bonuses$$
+bonuses = [100, 200, 250, 500]
