@@ -137,3 +137,11 @@ for n in employees_names:
 # 7a. 
 # create a list of bonuses$$
 bonuses = [100, 200, 250, 500]
+# 7b.
+# import random 
+# using the random library give random bonuses to the salaries list you created in problem 5. 
+# You will need to loop through every single salary and add a random bonus to the original salary
+import random
+for i in employees_salaries:
+    i = random.choice(bonuses) + i
+    print(i)
