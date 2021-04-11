@@ -155,3 +155,6 @@ employee_info = {"cathy":9000}
 # add 5 more employees to your dictionary with their own salaries
 employee_info2 = {"Aaila":1000, "Bobbe":1500, "Carle":2000, "Dennie":2500, "Eita":3000}
 employee_info.update(employee_info2)
+# 8c. 
+# print out every key in the dictionary
+print(employee_info.keys())
