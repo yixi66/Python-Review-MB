@@ -145,3 +145,9 @@ import random
 for i in employees_salaries:
     i = random.choice(bonuses) + i
     print(i)
+
+
+
+# 8a.
+# create a dictionary called employee_info and given it the initial value of {"your name": <your desired salary>}
+employee_info = {"cathy":9000}
