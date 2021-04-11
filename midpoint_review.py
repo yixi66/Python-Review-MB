@@ -158,3 +158,6 @@ employee_info.update(employee_info2)
 # 8c. 
 # print out every key in the dictionary
 print(employee_info.keys())
+# 8d. 
+# print out every value in the dictionary 
+print(employee_info.values())
