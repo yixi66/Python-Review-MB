@@ -151,3 +151,7 @@ for i in employees_salaries:
 # 8a.
 # create a dictionary called employee_info and given it the initial value of {"your name": <your desired salary>}
 employee_info = {"cathy":9000}
+# 8b. 
+# add 5 more employees to your dictionary with their own salaries
+employee_info2 = {"Aaila":1000, "Bobbe":1500, "Carle":2000, "Dennie":2500, "Eita":3000}
+employee_info.update(employee_info2)
